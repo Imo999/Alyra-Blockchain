@@ -1,0 +1,32 @@
+########## Commande LINUX ########## 
+
+-h = Aide
+
+ls = Liste des fichiers répertoires 
+ls -filah = Liste des fichiers répertoires plus détaillé 
+Pwd = Nom répertoire courant 
+cd = Permet de ce déplacer (Exemple : cd /Alyra) je me déplace dans le fichier Alyra
+cd .. = Permet de de retourner en arrière dans l'arborescence
+cd ~ = Permet de retourner à la racine
+mkdir = Création de dossier (Exemple : mkdir /Alyra) je crée le dossier Alyra
+rmdir = Suppréssion de dossier
+rm = Suppréssion de fichier (Exemple : rm cmd.txt) je Supprimme mon fichier cmd.txt
+mv = Renommer ou déplacement du fichier (Exemple : mv cmd.txt cmd999.txt)
+cp = Copie du fichier
+file = Type de fichier (Exemple : file cmd.txt)
+
+date = Affichage de la date et l'heure 
+
+passwd = changement de mdp 
+echo = Affichage des caractères (Exemple : echo "Hello Alyra")
+exit = quitter
+
+########## Commande SUDO ########## 
+
+Sudo est une commande qui veut  dire superuser ! 
+
+Sudo permet à un administrateur système de donner à un utilisateur (ou un groupe d'utilisateurs) la possibilité
+d'exécuter une ou plusieurs commandes en tant que super utilisateur, tout en gardant une trace des commandes
+tapées et en demandant un mot de passe à l’utilisateur avant d’exécuter sa commande.
+Ainsi, sudo peut empêcher l’exécution libre de commandes critiques (généralement des commandes
+d’administration) pouvant gravement affecter le système
