@@ -1,0 +1,63 @@
+/*
+Vous commencez votre carrière en tant qu'intégrateur web. Votre premier client est un renommé chef japonnais Daichi Sakamoto.
+Son designer japonais a prépare pour vous une maquette minimaliste, aérée et très lisible 
+vous pouvez voir son prototype en action ici https://cdpn.io/alyra/debug/8492b4775f2abb53fcd260adf4173723
+La police utilisée ici - Changa - c'est une police google fonts à charger dans HTML settings > head stuff
+La référence de la couleur jaune - #fee500
+*/
+/* ref: https://s3-us-west-2.amazonaws.com/s.cdpn.io/1328554/chottomotto.png (images/chottomotto) */
+
+/* ajouter une bordure jaune autour du body 24px  */
+/* changer la police pour Changa, laisser le sans-serif comme le 2e choix */
+/* augmente la taille de police au 20px, l'interligne de 1.8 */
+body {
+}
+
+/* le block contenu est centré ne dépasse pas la largeur de 720px */
+main {
+}
+
+/* les images ne dépassent pas l'écran */
+img {
+}
+/* centrer les éléments de la partie header */
+header {
+}
+
+/* titre h2 centré */
+h2 {
+}
+
+/* les éléments dans le footer centrée */
+footer {
+}
+
+/* taille de police plus grande (32px) dans le paragraphe intro, centré */
+.intro {
+}
+
+/* titre h2 centré */
+h2 {
+}
+
+/* les éléments dans le footer centrée */
+footer {
+}
+
+/* la liste sans bullets */
+/* pas de marge ni de padding */
+nav ul {
+}
+
+/* les éléments de la liste affichés dans une ligne */
+nav li {
+}
+
+/* les liens dans la partie navigation en majuscules, couleur noir */
+/* espacés de 12px */
+nav a {
+}
+
+/* le lien dans la partie navigation en survol devient jaune  */
+nav a:hover {
+}
