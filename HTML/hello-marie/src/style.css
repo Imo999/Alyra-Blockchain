@@ -1,0 +1,84 @@
+:root {
+   --dark: #212121;
+   --brand: #fdd835;
+}
+* {
+   box-sizing: border-box;
+}
+body {
+   font-family: Poppins, sans-serif;
+   margin: 0;
+   color: var(--dark);
+}
+header {
+   background-color: var(--brand);
+   padding: 1.5rem;
+   text-align: center;
+}
+
+/* auto size image */
+img {
+   max-width: 100%; /* Ne dépasse pas la largeur du conteneur dans lequel tu es ? */
+   height: auto; /* adapte la hauteur à la largeur */
+}
+
+header img {
+   border: 0.75rem solid white;
+
+   box-shadow: 0.75rem 0.75rem 0 rgba(0, 0, 0, 0.2); /* Ombre */
+}
+
+article {
+   background-color: var(--dark);
+   color: white;
+   padding: 2rem;
+}
+
+.astuces {
+   color: var(--brand);
+}
+
+.container {
+   max-width: 65ch;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+footer {
+   padding: 2rem;
+   text-align: center;
+}
+
+/* a partir de 640px le navigateur va lire uniquement si les contitions son appliqué dans cette situation la */
+
+@media screen and (min-width: 640px) {
+   /* Media queries */
+   body {
+      padding: 2rem;
+   }
+   header {
+      margin-bottom: 2rem;
+   }
+   header img {
+      transform: rotate(-3deg); /* Rotation image */
+   }
+   article {
+      box-shadow: 0.75rem 0.75rem 0 rgba(0, 0, 0, 0.2); /* Ombre */
+      margin-bottom: 2rem;
+   }
+   footer {
+      border: 1px solid;
+      box-shadow: 0.75rem 0.75rem 0 var(--brand); /* Ombre */
+   }
+   @media (hover: hover) {
+      /* Media queries */
+      li {
+         filter: blur(8px); /* flouter le text */
+         transition: 1s; /* Timing de du changement */
+      }
+      li:hover {
+         filter: none; /* Découvrir le floutage */
+         color: var(--brand); /* mettre uen couleur */
+      }
+   }
+}
