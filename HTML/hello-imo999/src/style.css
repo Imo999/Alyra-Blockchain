@@ -21,7 +21,6 @@ header {
 img {
    max-width: 100%; /* Ne dépasse pas la largeur du conteneur dans lequel tu es ? */
    height: auto; /* adapte la hauteur à la largeur */
-      filter: drop-shadow(16px 16px 20px red) invert(75%);
 
 }
 
@@ -74,7 +73,7 @@ footer {
    }
    footer {
       border: 1px solid;
-      box-shadow: 0.75rem 0.75rem 0 var(--brand); /* Ombre */
+      box-shadow: 0.75rem 0.75rem 0 var(--dark); /* Ombre */
    }
    @media (hover: hover) {
       /* Media queries */
