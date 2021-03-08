@@ -12,62 +12,102 @@ La référence de la couleur jaune - #fee500
 
 :root {
 --jaune:#fee500;
+--black:#212121;
 }
 /* ajouter une bordure jaune autour du body 24px  */
 /* changer la police pour Changa, laisser le sans-serif comme le 2e choix */
 /* augmente la taille de police au 20px, l'interligne de 1.8 */
 body {
-border:24px 24px 0 solid var(--jaune);
+border:1.5rem solid var(--jaune);
 font-family: Changa, sans-serif;
-font-size: 20px;
+font-size: 1.5rem;
 line-height:1.8;
+margin:0;
+padding: 4px 12px 4px 12px;
 }
 
 /* le block contenu est centré ne dépasse pas la largeur de 720px */
 main {
+margin: 0 auto;
+text-align: center;
+max-width:720px;
+
 }
 
 /* les images ne dépassent pas l'écran */
 img {
+  max-width: 100%; /* Ne dépasse pas la largeur du conteneur dans lequel tu es ? */
+  height: auto; /* adapte la hauteur à la largeur */
+}
+main img{
+  box-shadow: 10px 10px var(--jaune);
+
+
 }
 /* centrer les éléments de la partie header */
 header {
+margin: 0 auto;
+text-align: center;
+max-width:720px;
+
 }
 
 /* titre h2 centré */
 h2 {
+   text-align: center;
+
 }
 
 /* les éléments dans le footer centrée */
 footer {
+margin: 0 auto;
+text-align: center;
+max-width:720px;
+
 }
 
 /* taille de police plus grande (32px) dans le paragraphe intro, centré */
 .intro {
+  font-size: 32px;
 }
 
 /* titre h2 centré */
 h2 {
+text-align: center;
+
 }
 
 /* les éléments dans le footer centrée */
 footer {
+text-align: center;
+max-width:720px;
+
 }
 
 /* la liste sans bullets */
 /* pas de marge ni de padding */
 nav ul {
+  list-style: none;
+  margin: none;
+  padding: 4px 12px 4px 12px;
+  
 }
 
 /* les éléments de la liste affichés dans une ligne */
 nav li {
+  display: inline;
 }
 
 /* les liens dans la partie navigation en majuscules, couleur noir */
 /* espacés de 12px */
 nav a {
+font-weight: bold;  
+color: var(--black);
+line-height: 12px;
+
 }
 
 /* le lien dans la partie navigation en survol devient jaune  */
 nav a:hover {
+  color: var(--jaune);
 }
