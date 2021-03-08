@@ -1,6 +1,6 @@
 :root {
-   --dark: #212121;
-   --brand: #fdd835;
+   --dark: #daa282;
+   --brand: #ffc793;
 }
 * {
    box-sizing: border-box;
@@ -12,6 +12,7 @@ body {
 }
 header {
    background-color: var(--brand);
+   color: rgb(74, 74, 213);
    padding: 1.5rem;
    text-align: center;
 }
@@ -30,12 +31,14 @@ header img {
 
 article {
    background-color: var(--dark);
-   color: white;
+   color: rgb(74, 74, 213);
    padding: 2rem;
 }
 
 .astuces {
-   color: var(--brand);
+   color: rgb(74, 74, 213);
+   font-weight:bold;
+   text-align: center;
 }
 
 .container {
@@ -47,6 +50,7 @@ article {
 footer {
    padding: 2rem;
    text-align: center;
+   
 }
 
 /* a partir de 640px le navigateur va lire uniquement si les contitions son appliqué dans cette situation la */
@@ -78,7 +82,9 @@ footer {
       }
       li:hover {
          filter: none; /* Découvrir le floutage */
-         color: var(--brand); /* mettre uen couleur */
+         color: rgb(189, 72, 170);; /* mettre uen couleur */
+           font-weight:bold;
+ 
       }
    }
 }
