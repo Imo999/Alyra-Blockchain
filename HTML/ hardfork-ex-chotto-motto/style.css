@@ -7,10 +7,20 @@ La référence de la couleur jaune - #fee500
 */
 /* ref: https://s3-us-west-2.amazonaws.com/s.cdpn.io/1328554/chottomotto.png (images/chottomotto) */
 
+
+
+
+:root {
+--jaune:#fee500;
+}
 /* ajouter une bordure jaune autour du body 24px  */
 /* changer la police pour Changa, laisser le sans-serif comme le 2e choix */
 /* augmente la taille de police au 20px, l'interligne de 1.8 */
 body {
+border:24px 24px 0 solid var(--jaune);
+font-family: Changa, sans-serif;
+font-size: 20px;
+line-height:1.8;
 }
 
 /* le block contenu est centré ne dépasse pas la largeur de 720px */
