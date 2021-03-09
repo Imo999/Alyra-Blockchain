@@ -88,22 +88,29 @@ section {
   align-items: center;
   text-align: center;
   }
-
-section img {
+a {
+  color: white;
+text-decoration: none;
+}
+.grid article {
 background-color:var(--green);
 justify-content: space-between;
 margin: 5px;
 align-items: center;
+
 }
+
 #obstacles {
   background: var(--orange);
-    padding: 24px;
+    padding: 2rem;
 }
 
 .obstacles-group {
 display: flex;
 flex-flow: row nowrap;
 }
+
+
 
 
 #prizes {
