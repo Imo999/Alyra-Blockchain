@@ -68,6 +68,7 @@ header {
   background-image: url(/img/blue-splash.png);
   background-size: contain, cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 #obstacles {
