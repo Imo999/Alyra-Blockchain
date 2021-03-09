@@ -48,6 +48,7 @@ nav ul {
   list-style: none;
   background: var(--green);
   padding: 1rem;
+  
   /* Transparence */
 }
 
@@ -71,6 +72,8 @@ header {
   background-size: contain, cover;
   background-repeat: no-repeat;
   background-position: center;
+  
+  
 }
 header > h1,p {
 
@@ -84,21 +87,17 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-
-}
+  }
 
 section img {
 background-color:var(--green);
 justify-content: space-between;
 margin: 5px;
 align-items: center;
-
 }
-
-
 #obstacles {
   background: var(--orange);
-
+    padding: 24px;
 }
 
 .obstacles-group {
@@ -108,11 +107,55 @@ flex-flow: row nowrap;
 
 
 #prizes {
-  background: var(--green); }
-
- .prizes-group {
-display: flex;
-margin: auto;
-  justify-content: center;
-  align-items: center;
+  background: var(--green); 
+  padding: 24px;
+  
+  
 }
+ .prizes-group {
+   
+ display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.prizes-group article {
+border: dashed var(--yellow) 2px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+/*
+label,input {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: var(--orange);
+    color: white;
+    border-radius: 6px;
+    border: 0;
+    padding: 0.75rem;
+}
+
+button {
+    background-color: var(--yellow);
+    border-radius: 6px;
+    border: 0;
+    padding: 1rem 0.75rem;
+    margin-top: 0.75rem;
+    text-shadow: 2px 2px 0 #aaa;
+}
+
+footer {
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--yellow);
+    color: black; 
+  } */

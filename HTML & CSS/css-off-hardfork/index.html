@@ -1,129 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Triple Dare</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Atma:400,700%7CBangers:400"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style/style.css" />
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#obstacles">obstacles</a></li>
-        <li><a href="#prizes">prizes</a></li>
-        <li><a href="#apply">apply</a></li>
-      </ul>
-    </nav>
-    <header>
-      <h1>Triple Dare</h1>
-      <p>The web's messiest challenge!</p>
-    </header>
-    <main>
-      <section id="obstacles" class="obstacles">
-        <div class="wrap">
-          <h2>Obstacles</h2>
-          <div class="obstacles-group grid">
-            <article>
-              <img src="img/tank.png" width="200" height="200" alt="Tank" />
-              <h3 class="obstacle-title"><a href="#">The tank</a></h3>
-            </article>
-            <article>
-              <img
-                src="img/slide.png"
-                width="200"
-                height="200"
-                alt="Sundae Slide"
-              />
-              <h3 class="obstacle-title">
-                <a href="obstacles/sslide.html">Sundae Slide</a>
-              </h3>
-            </article>
-            <article>
-              <img src="img/hatch.png" width="200" height="200" alt="Hatch" />
-              <h3 class="obstacle-title"><a href="#">Down the Hatch</a></h3>
-            </article>
 
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Triple Dare</title>
+  <link href="https://fonts.googleapis.com/css?family=Atma:400,700%7CBangers:400" rel="stylesheet" />
+  <link rel="stylesheet" href="style/style.css" />
+  </header>
+  <main>
+    <section id="obstacles" class="obstacles">
+      <div class="wrap">
+        <h2>Obstacles</h2>
+        <div class="obstacles-group grid">
+          <article>
+            <img src="img/tank.png" width="200" height="200" alt="Tank" />
+            <h3 class="obstacle-title"><a href="#">The tank</a></h3>
+          </article>
+          <article>
+            <img src="img/slide.png" width="200" height="200" alt="Sundae Slide" />
+            <h3 class="obstacle-title">
+              <a href="obstacles/sslide.html">Sundae Slide</a>
+            </h3>
+          </article>
+          <article>
+            <img src="img/hatch.png" width="200" height="200" alt="Hatch" />
+            <h3 class="obstacle-title"><a href="#">Down the Hatch</a></h3>
+          </article>
+
         </div>
-        <!--wrap-->
-      </section>
-      <section id="prizes" class="prizes">
-        <div class="wrap">
-          <h2>Prizes</h2>
-          <div class="prizes-group grid">
-            <article id="spacecamp">
-              <img
-                src="img/spacecamp.png"
-                width="353"
-                height="375"
-                alt="Spacecamp"
-              />
-              <h3 class="obstacle-title">
-                <a href="#">A Trip to space camp!</a>
-              </h3>
-            </article>
-            <article id="keyboard">
-              <img
-                src="img/keyboard.png"
-                width="391"
-                height="150"
-                alt="Keyboard"
-              />
-              <h3 class="obstacle-title">
-                <a href="#">a CASIO RAPMAN KEYBOARD!</a>
-              </h3>
-            </article>
-            <article id="heatzone">
-              <img
-                src="img/heatzone.png"
-                width="393"
-                height="228"
-                alt="Heatzone"
-              />
-              <h3>a NASH SKATEBOARD!</h3>
-            </article>
-          </div>
+      </div>
+      <!--wrap-->
+    </section>
+    <section id="prizes" class="prizes">
+      <div class="wrap">
+        <h2>Prizes</h2>
+        <div class="prizes-group grid">
+          <article id="spacecamp">
+            <img src="img/spacecamp.png" width="353" height="375" alt="Spacecamp" />
+            <h3 class="obstacle-title">
+              <a href="#">A Trip to space camp!</a>
+            </h3>
+          </article>
+          <article id="keyboard">
+            <img src="img/keyboard.png" width="391" height="150" alt="Keyboard" />
+            <h3 class="obstacle-title">
+              <a href="#">a CASIO RAPMAN KEYBOARD!</a>
+            </h3>
+          </article>
+          <article id="heatzone">
+            <img src="img/heatzone.png" width="393" height="228" alt="Heatzone" />
+            <h3>a NASH SKATEBOARD!</h3>
+          </article>
         </div>
-        <!--wrap-->
-      </section>
-      <section id="apply" class="apply">
-        <div class="wrap">
-          <h2>Apply</h2>
-          <img src="img/tripledare.svg" alt="Triple Dare " width="600" />
-          <form>
-            <label for="username"
-              >Your name*
-              <input
-                id="username"
-                name="username"
-                type="text"
-                placeholder="ex. Joe Doe"
-                required
-              />
-            </label>
-            <label for="email"
-              >Your email*
-              <input
-                id="email"
-                name="email"
-                type="email"
-                placeholder="ex. joe@doe.fake"
-                required
-              />
-            </label>
-            <button type="submit">Submit entry!</button>
-          </form>
-        </div>
-        <!--wrap-->
-      </section>
-    </main>
-    <footer>
-      &copy; Triple Dare
-    </footer>
+      </div>
+      <!--wrap-->
+    </section>
+    <section id="apply" class="apply">
+      <div class="wrap">
+        <h2>Apply</h2>
+        <img src="img/tripledare.svg" alt="Triple Dare " width="600" />
+        <form>
+          <label for="username">Your name*
+            <input id="username" name="username" type="text" placeholder="ex. Joe Doe" required />
+          </label>
+          <label for="email">Your email*
+            <input id="email" name="email" type="email" placeholder="ex. joe@doe.fake" required />
+          </label>
+          <button type="submit">Submit entry!</button>
+        </form>
+      </div>
+      <!--wrap-->
+    </section>
+  </main>
+  <footer>
+    &copy; Triple Dare
+  </footer>
   </body>
+
 </html>
