@@ -97,6 +97,10 @@ background-color:var(--green);
 justify-content: space-between;
 margin: 5px;
 align-items: center;
+/* comme ça  */
+width: auto;
+padding: 2rem;
+box-sizing:  border-box;
 
 }
 
@@ -107,9 +111,10 @@ align-items: center;
 
 .obstacles-group {
 display: flex;
-flex-flow: row nowrap;
 }
-
+.obstacles-group article {
+border-radius: 20%;
+}
 
 
 
