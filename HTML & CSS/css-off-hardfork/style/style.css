@@ -120,7 +120,7 @@ border-radius: 20%;
 
 #prizes {
   background: var(--green); 
-  padding: 24px;
+  padding: 2rem;
   
   
 }
@@ -134,9 +134,11 @@ border-radius: 20%;
 }
 .prizes-group article {
 border: dashed var(--yellow) 2px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+}
+
+.prizes-group article img {
+width: 100%;
+height: auto;
 
 
 }
