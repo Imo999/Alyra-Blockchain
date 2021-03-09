@@ -7,8 +7,8 @@
 
 * {
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -31,30 +31,45 @@ button {
   letter-spacing: 2px;
 }
 
-nav {
-background: var(--green);
-position: fixed;
-width: 100%;
-}
-nav ul {
- display: flex;
-  justify-content: space-around;
-      list-style: none;
-padding: 1rem; /* Ajuster padding */
-}
-nav a {
-  color: white;
-  text-decoration: none; /* retire le lien des element */
-  display: inline-block;
-  padding: 0.5rem;
-}
-
-header{
-background-image: url(/HTML\ &\ CSS/);
-
-}
-
 /* ... Your turn! ... */
 
 @media (min-width: 640px) {
+  
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  background: var(--green);
+  padding: 1rem;
+  /* Transparence */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(/img/blue-splash.png);
+  background-size: contain, cover;
+  background-repeat: no-repeat;
+}
+
+#obstacles {
+  background: var(--orange);
 }
