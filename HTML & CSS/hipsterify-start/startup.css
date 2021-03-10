@@ -10,3 +10,9 @@ blockquote,
 footer {
   font-family: Georgia, Times, serif;
 }
+
+.team {
+background-color: var(--bs-dark);
+background-image: url(/img/fan.jpg);
+text-align: center;
+}
